@@ -270,9 +270,6 @@ a {
 }
 
 @media (min-width: 37.5em) {
-  #iframe{
-    display: block;
-  }
   .product-details .rate {
     position: absolute;
     top: 12px;
@@ -294,9 +291,6 @@ a {
   }
 }
 @media (min-width: 56.25em) {
-  #iframe{
-    display: block;
-  }
   .container {
     display: flex;
     flex-direction: row;
@@ -332,3 +326,24 @@ a {
     border-radius: 0 20px 20px 0;
   }
 }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  #iframe{
+    display: none;
+  }}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  #iframe{
+    display: none;
+  }}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  #iframe{
+    display: none;
+  }}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  #iframe{
+    display: none;
+  }}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  #iframe{
+    display: block;
+  }}
