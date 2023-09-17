@@ -2,40 +2,40 @@ function changePic(x,y){
     document.getElementById("pic").src = x;
     switch(y){
         case 1:
-            document.getElementById("pro-img").classList.add('product-image-1');
-            document.getElementById("pro-img").classList.remove('product-image-2');
-            document.getElementById("pro-img").classList.remove('product-image-3');
-            document.getElementById("pro-img").classList.remove('product-image-4');
+            // document.getElementById("pro-img").classList.add('product-image-1');
+            // document.getElementById("pro-img").classList.remove('product-image-2');
+            // document.getElementById("pro-img").classList.remove('product-image-3');
+            // document.getElementById("pro-img").classList.remove('product-image-4');
             document.getElementById("pic1").classList.add('active');
             document.getElementById("pic2").classList.remove('active');
             document.getElementById("pic3").classList.remove('active');
             document.getElementById("pic4").classList.remove('active');
             break;
         case 2:
-            document.getElementById("pro-img").classList.add('product-image-2');
-            document.getElementById("pro-img").classList.remove('product-image-1');
-            document.getElementById("pro-img").classList.remove('product-image-3');
-            document.getElementById("pro-img").classList.remove('product-image-4');
+            // document.getElementById("pro-img").classList.add('product-image-2');
+            // document.getElementById("pro-img").classList.remove('product-image-1');
+            // document.getElementById("pro-img").classList.remove('product-image-3');
+            // document.getElementById("pro-img").classList.remove('product-image-4');
             document.getElementById("pic2").classList.add('active');
             document.getElementById("pic1").classList.remove('active');
             document.getElementById("pic3").classList.remove('active');
             document.getElementById("pic4").classList.remove('active');
             break;
         case 3:
-            document.getElementById("pro-img").classList.add('product-image-3');
-            document.getElementById("pro-img").classList.remove('product-image-1');
-            document.getElementById("pro-img").classList.remove('product-image-2');
-            document.getElementById("pro-img").classList.remove('product-image-4');
+            // document.getElementById("pro-img").classList.add('product-image-3');
+            // document.getElementById("pro-img").classList.remove('product-image-1');
+            // document.getElementById("pro-img").classList.remove('product-image-2');
+            // document.getElementById("pro-img").classList.remove('product-image-4');
             document.getElementById("pic3").classList.add('active');
             document.getElementById("pic1").classList.remove('active');
             document.getElementById("pic2").classList.remove('active');
             document.getElementById("pic4").classList.remove('active');
             break;
         case 4:
-            document.getElementById("pro-img").classList.add('product-image-4');
-            document.getElementById("pro-img").classList.remove('product-image-1');
-            document.getElementById("pro-img").classList.remove('product-image-2');
-            document.getElementById("pro-img").classList.remove('product-image-3');
+            // document.getElementById("pro-img").classList.add('product-image-4');
+            // document.getElementById("pro-img").classList.remove('product-image-1');
+            // document.getElementById("pro-img").classList.remove('product-image-2');
+            // document.getElementById("pro-img").classList.remove('product-image-3');
             document.getElementById("pic4").classList.add('active');
             document.getElementById("pic1").classList.remove('active');
             document.getElementById("pic2").classList.remove('active');
@@ -67,3 +67,5 @@ function share(){
     sharelink = window.location.href;
     window.open(`whatsapp://send?text=${sharelink}`)
 }
+
+
